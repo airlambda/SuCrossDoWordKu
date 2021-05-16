@@ -10,7 +10,7 @@ Certain cells are "fixed" and placed manually due to making it make sense from a
 ## Word_List
 Word_List contains a search of words in the English dictionary that can be spelled out using one of A-F only. Run `valid_words.py` and change the constraints to see other words with only a single instance of a subset of letters in them.
 
-##Sudoku_Solver
+## Sudoku_Solver
 This folder contains 3 separate ways of trying to solve a 16 x 16 hexadecimal sudoku.
 - `sudoku_solver.py` is the original method based off backtracking and recursion. Sadly, with how sparse the grid was and the recursion limits on Python, this code does not really get too far in solving a 16x16 sudoku.
 - `sudoku_solver_annealing.py` is a naive first attempt at a metaheuristic simulated annealing algorithm to solve the 16 x 16 sudoku problem. 
